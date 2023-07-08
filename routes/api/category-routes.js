@@ -49,9 +49,26 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
+router.put('/:id', async (req, res) => {
+  try {
+    // Use findOne to find the existing category by id
+    const category = await Category.findOne({ where: { id: req.params.id } });
+    // Check to see if it is a real category id
+    if (!category) {
+      res.status(404).json({ message: 'No category found with this id!' });
+      return;
+    }
+
+    // Update the category with the new data
+    await category.update(req.body);
+    // Send 200 response with success message
+    res.status(200).json({ message: 'Category updated successfully!' });
+  } catch (err) {
+    // If error display 500 response
+    res.status(500).json(err);
+  }
 });
+
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
