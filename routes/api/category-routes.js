@@ -37,8 +37,16 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.post('/', (req, res) => {
-  // create a new category
+router.post('/', async (req, res) => {
+  try {
+    // Use create to grab the user input from the body element
+    const categoryData = await Category.create(req.body);
+    // Add the input from user to Category
+    res.status(200).json(categoryData);
+  } catch (err) {
+    // If error display 400 message
+    res.status(400).json(err);
+  }
 });
 
 router.put('/:id', (req, res) => {
