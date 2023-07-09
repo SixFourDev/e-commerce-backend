@@ -26,7 +26,13 @@ MIT License
 
 ## Tests
 
-testing
+<img width="1503" alt="Screen Shot 2023-07-09 at 2 41 55 PM" src="https://github.com/SixFourDev/e-commerce-backend/assets/127274865/011b550a-2b0f-44f4-bd48-770a5120ee0a">
+
+<img width="1503" alt="Screen Shot 2023-07-09 at 2 42 19 PM" src="https://github.com/SixFourDev/e-commerce-backend/assets/127274865/d832f872-d4c3-4eb5-b0f1-aca1acdb920d">
+
+<img width="1503" alt="Screen Shot 2023-07-09 at 2 42 47 PM" src="https://github.com/SixFourDev/e-commerce-backend/assets/127274865/00b8037f-5376-4959-acc2-26d626cf16aa">
+
+<img width="1503" alt="Screen Shot 2023-07-09 at 2 43 04 PM" src="https://github.com/SixFourDev/e-commerce-backend/assets/127274865/73cecc63-233c-47c5-916e-c84e6577bc09">
 
 ## Questions
 
