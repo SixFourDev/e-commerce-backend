@@ -1,2 +1,37 @@
-# e-commerce-backend
-Back end for my e-commerce website that uses the latest technologies
+# E-Commerce Backend
+
+![License](https://img.shields.io/badge/License-MIT%20License-brightgreen)
+
+## Description
+
+My motivation behind building this tool was to implement what we have learned with ORM this week in class. This backend tool can be used for e-commerce businesses to keep track of all their products.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+
+## Installation
+
+To be able to use this tool, simply clone the repo from https://github.com/SixFourDev/e-commerce-backend, then open it in VS Code.  After you have opened it in VS Code, open your terminal in VS Code by right clicking "server.js" then click "Open in Integrated Terminal". The terminal will then present itself at the bottom of VS Code. Since this tool uses several dependencies, you will need to run "npm install" to install the packages needed to be able to use this tool. Then in your terminal your going to want to import the schema, so type "mysql -u root -p", and we're going to source the schema with "SOURCE db/schema.sql". After it has been source type "quit;" to get out of mysql, then you will need to run "npm run seed".
+
+## Usage
+
+After you have went through the installation, you will run "npm run start" in your terminal, and it will say "App listening on port 3001!". You will then open Insomnia/Postman so we can test the app. In Insomnia, we can make get, post, put, and delete requests. The api endpoints you can search are "/api/categories/", "/api/categories/:id", "/api/tags", "/api/tags/:id", "/api/products", and "/api/products/:id".
+
+## License
+
+MIT License
+
+## Tests
+
+testing
+
+## Questions
+
+For any questions or inquiries, feel free to reach out to me:
+
+- GitHub: [SixFourDev](https://github.com/SixFourDev)
+- Email: sb_94@yahoo.com
+
