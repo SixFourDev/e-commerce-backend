@@ -34,6 +34,8 @@ MIT License
 
 <img width="1503" alt="Screen Shot 2023-07-09 at 2 43 04 PM" src="https://github.com/SixFourDev/e-commerce-backend/assets/127274865/73cecc63-233c-47c5-916e-c84e6577bc09">
 
+https://github.com/SixFourDev/e-commerce-backend/assets/127274865/63c62d1d-f5a3-4ce9-abff-5e858444e406
+
 ## Questions
 
 For any questions or inquiries, feel free to reach out to me:
